@@ -4,7 +4,7 @@
   - `package.json` is like the config file
 - S2L6:
   - install VScode extension `ES7+ React/Redux/React-Native snippets`
-  - download bootstrap.min.css from Bootswatch and put into src folder
+  - download Lux bootstrap.min.css from [Bootswatch](<https://bootswatch.com/>) and put into src folder
   - `npm install react-bootstrap`
   - [Bootstrap utilities](<https://www.w3schools.com/bootstrap5/bootstrap_utilities.php>)
     - `className="py-3"`
@@ -14,7 +14,15 @@
     - `<Navbar bg="dark" variant="dark" expand="lg">`
   - CSS
     - What is `min-height: 80vh;`
+    - [Css units](<https://www.w3schools.com/cssref/css_units.asp>)
   - Get font-awesome from [cdnjs](<https://cdnjs.com/>)
     - Copy link tag and paste into index.html
     - [Search all icons](<https://fontawesome.com/icons/cart-shopping?s=regular>)
-  
+- S2L8:
+  - What is `padding: 1rem 0;`
+  - [Css units](<https://www.w3schools.com/cssref/css_units.asp>)
+- S2L9:
+  - `npm install react-router-dom react-router-bootstrap`
+  - react-router-dom 6 is a little different
+    - [error-error-a-route-is-only-ever-to-be-used-as-the-child-of-routes-element](<https://stackoverflow.com/questions/69832748/error-error-a-route-is-only-ever-to-be-used-as-the-child-of-routes-element>)
+    - [React Router Tutorial](<https://github.com/remix-run/react-router/blob/main/docs/getting-started/tutorial.md>)
