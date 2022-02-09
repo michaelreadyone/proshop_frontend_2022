@@ -26,3 +26,5 @@
   - react-router-dom 6 is a little different
     - [error-error-a-route-is-only-ever-to-be-used-as-the-child-of-routes-element](<https://stackoverflow.com/questions/69832748/error-error-a-route-is-only-ever-to-be-used-as-the-child-of-routes-element>)
     - [React Router Tutorial](<https://github.com/remix-run/react-router/blob/main/docs/getting-started/tutorial.md>)
+- S2L10:
+  - [Update in getting params in react-router-dom 6](<https://stackoverflow.com/questions/70290770/react-typeerror-cannot-read-properties-of-undefined-reading-params>)
