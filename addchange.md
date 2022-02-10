@@ -38,3 +38,6 @@
   - when and why to use `...array`
 - S4L21:
   - redux action in charges of making api call
+- S4L23:
+  - Use react-bootstrap components Spinner and Alert to display loading page and error page
+  - How to set a timer?

@@ -10,6 +10,8 @@ import axios from "axios";
 export const listProducts = () => async (dispatch) => {
   try {
     dispatch({ type: PRODUCT_LIST_REQUEST });
+    // why it doesn't work here for time sleep? try at backend
+    setTimeout(() => {  console.log("World!"); }, 2000);
     const { data } = await axios.get("/api/products/");
     dispatch({
       type: PRODUCT_LIST_SUCCESS,
