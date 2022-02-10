@@ -36,3 +36,5 @@
   - Add Redux DevTools to chrome
   - `npm install redux react-redux redux-thunk redux-devtools-extension`
   - when and why to use `...array`
+- S4L21:
+  - redux action in charges of making api call
