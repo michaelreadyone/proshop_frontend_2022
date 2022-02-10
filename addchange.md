@@ -32,3 +32,7 @@
   - `npm install axios`
   - set CORS, allow django to be visited by other urls, set up at backend
 
+- S4L20:
+  - Add Redux DevTools to chrome
+  - `npm install redux react-redux redux-thunk redux-devtools-extension`
+  - when and why to use `...array`
