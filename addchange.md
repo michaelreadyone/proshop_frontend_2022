@@ -28,3 +28,7 @@
     - [React Router Tutorial](<https://github.com/remix-run/react-router/blob/main/docs/getting-started/tutorial.md>)
 - S2L10:
   - [Update in getting params in react-router-dom 6](<https://stackoverflow.com/questions/70290770/react-typeerror-cannot-read-properties-of-undefined-reading-params>)
+- S3L13
+  - `npm install axios`
+  - set CORS, allow django to be visited by other urls, set up at backend
+
