@@ -47,3 +47,7 @@
   - [optional parameters in v6](<https://stackoverflow.com/questions/70005601/alternate-way-for-optional-parameters-in-v6>)
 - S5L26:
   - Local storage: keep the cart items for visitors when they come back to the shop website
+  - why addToCartHandler don't add () behind it
+- S5L27:
+  - [useLocation for react-router-dom 6](<https://stackoverflow.com/questions/70456937/no-routes-matched-location-cart-in-router-router-dom-v-6>)
+  - Redux 里的数据是怎么进local storage的？
