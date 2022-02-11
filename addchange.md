@@ -45,3 +45,5 @@
   - make id optional for url `<Route path="/cart/:id?" element={<CartScreen />} />`
   - [`history.push()` in react-router-dom v6](<https://stackoverflow.com/questions/63597215/how-to-use-history-instance-while-using-react-routers-v6>)
   - [optional parameters in v6](<https://stackoverflow.com/questions/70005601/alternate-way-for-optional-parameters-in-v6>)
+- S5L26:
+  - Local storage: keep the cart items for visitors when they come back to the shop website
