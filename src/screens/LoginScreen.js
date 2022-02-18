@@ -16,6 +16,7 @@ function LoginScreen() {
 
   const dispatch = useDispatch();
 
+  // console.log(location);
   const redirect = location.search ? location.search.split("=")[1] : "/";
 
   const userLogin = useSelector((state) => state.userLogin);
@@ -28,7 +29,7 @@ function LoginScreen() {
   }, [navigate, redirect, userInfo]);
 
   const submitHandler = (e) => {
-    e.preventDefault();
+    e.preventDefault();// 避免程序自动提交
     dispatch(login(email, password));
   };
 
@@ -44,21 +45,21 @@ function LoginScreen() {
           <Form.Control
             type="email"
             placeholder="Enter Email"
-            value={email}
+            // value={email}
             onChange={(e) => setEmail(e.target.value)}
           ></Form.Control>
         </Form.Group>
-
+        <br />
         <Form.Group controlId="password">
           <Form.Label>Password</Form.Label>
           <Form.Control
             type="password"
             placeholder="Enter password"
-            value={password}
+            // value={password}
             onChange={(e) => setPassword(e.target.value)}
           ></Form.Control>
         </Form.Group>
-
+        <br />
         <Button type="submit" variant="primary">
           Sign In
         </Button>
